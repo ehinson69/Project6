@@ -1,0 +1,45 @@
+{"projects":
+    [
+        {"id": "001",
+            "project_name": "A Random Quote Generator",
+            "description": "A program that displays a randomly selected quote each tme a the user clicks a button.",
+            "technologies": [""],
+            "live-link": "",
+            "github_link": "",
+            "image_urls": ["\public\images\proj1.1.PNG", "\public\images\proj1.2.PNG", "\public\images\proj1.3.PNG", "\public\images\proj1.4.PNG"]
+        },
+        {"id": "002",
+            "project_name": "List Pagination and Filtering",
+            "description": "A program to divide a long list into a eries of pages and improve the user experience of a web page.",
+            "technologies": [""],
+            "live-link": "",
+            "github_link": "",
+            "image_urls": ["\public\images\proj2.1.PNG", "\public\images\proj2.2.PNG", "\public\images\proj2.3.PNG", "\public\images\proj2.4.PNG"]
+        },
+        {"id": "003",
+            "project_name": "Interactive Form",
+            "description": "A program using my skills to enhance a form so that it is engaging, interavtive, and easy to use.",
+            "technologies": [""],
+            "live-link": "",
+            "github_link": "",
+            "image_urls": ["\public\images\proj3.1.PNG", "\public\images\proj3.2.PNG", "\public\images\proj3.3.PNG", "\public\images\proj3.4.PNG"]
+        },
+        {"id": "004",
+            "project_name": "OOP Game Show App",
+            "description": "A program of a browser-based, word guessing game that users can select a random, hidden phrase and guess letters to win, if they guess the wrong letters they lose a heart.",
+            "technologies": [""],
+            "live-link": "",
+            "github_link": "",
+            "image_urls": ["\public\images\proj4.1.PNG", "\public\images\proj4.2.PNG", "\public\images\proj4.3.PNG", "\public\images\proj4.4.PNG"]
+        },
+        {"id": "005",
+            "project_name": "Public API Requests",
+            "description": "",
+            "technologies": [""],
+            "live-link": "",
+            "github_link": "",
+            "image_urls": ["\public\images\proj5.1.PNG", "\public\images\proj5.2.PNG", "\public\images\proj5.3.PNG", "\public\images\proj5.4.PNG"]
+        }
+    ]
+
+}
