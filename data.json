@@ -5,7 +5,7 @@
             "description": "A program that displays a randomly selected quote each tme a the user clicks a button.",
             "technologies": [""],
             "live-link": "",
-            "github_link": "",
+            "github_link": "https://github.com/ehinson69/Project1",
             "image_urls": ["\public\images\proj1.1.PNG", "\public\images\proj1.2.PNG", "\public\images\proj1.3.PNG", "\public\images\proj1.4.PNG"]
         },
         {"id": "002",
@@ -13,7 +13,7 @@
             "description": "A program to divide a long list into a eries of pages and improve the user experience of a web page.",
             "technologies": [""],
             "live-link": "",
-            "github_link": "",
+            "github_link": "https://github.com/ehinson69/Project2",
             "image_urls": ["\public\images\proj2.1.PNG", "\public\images\proj2.2.PNG", "\public\images\proj2.3.PNG", "\public\images\proj2.4.PNG"]
         },
         {"id": "003",
@@ -21,7 +21,7 @@
             "description": "A program using my skills to enhance a form so that it is engaging, interavtive, and easy to use.",
             "technologies": [""],
             "live-link": "",
-            "github_link": "",
+            "github_link": "https://github.com/ehinson69/Project3",
             "image_urls": ["\public\images\proj3.1.PNG", "\public\images\proj3.2.PNG", "\public\images\proj3.3.PNG", "\public\images\proj3.4.PNG"]
         },
         {"id": "004",
@@ -29,15 +29,15 @@
             "description": "A program of a browser-based, word guessing game that users can select a random, hidden phrase and guess letters to win, if they guess the wrong letters they lose a heart.",
             "technologies": [""],
             "live-link": "",
-            "github_link": "",
+            "github_link": "https://github.com/ehinson69/Project4",
             "image_urls": ["\public\images\proj4.1.PNG", "\public\images\proj4.2.PNG", "\public\images\proj4.3.PNG", "\public\images\proj4.4.PNG"]
         },
         {"id": "005",
             "project_name": "Public API Requests",
-            "description": "",
+            "description": "A program of an employee directory by communicating with a third party API, then access and display a vast sea of data for one employee at a time.",
             "technologies": [""],
             "live-link": "",
-            "github_link": "",
+            "github_link": "https://github.com/ehinson69/Project5",
             "image_urls": ["\public\images\proj5.1.PNG", "\public\images\proj5.2.PNG", "\public\images\proj5.3.PNG", "\public\images\proj5.4.PNG"]
         }
     ]
