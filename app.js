@@ -1,31 +1,34 @@
 // Variables to require dependencies 
-let jsonData = require("./data/data.json")
-const projects = jsonData.projects
-const express = require("express")
+let data = require("./data.json")
+const projects = data.projects
+const express = require('express')
 const app = express();
 
-// Starts Middleware 
-app.set('view engine', 'pug'); // sets engine to pug
+// Starts Middleware and sets engine to pug
+app.set('view engine', 'pug'); 
 app.use('/static', express.static('public'));
 
+//Index route for "Home" page
 app.get('/', (req, res) => {
   res.render('index', {
     projects
   });
 });
 
-app.get('/about', (req, res) => { // accesses about pug
+//About route "About" page
+app.get('/about', (req, res) => { 
   res.render('about');
 });
 
-app.get('/project/:id', (req, res) => { // accesses project pug
+//Accesses project pug
+app.get('/project/:id', (req, res) => { 
   const id = req.params.id // accesses the route parameter
   res.render('project', {
     project: projects[id]
   });
 });
 
-// function that displays error message when wrong url is entered.  
+//Error message handler and sets status code  
 app.use((req, res, next) => {
   const err = new Error('Page Not Found');
   console.log('Check URL- THIS PAGE NOT FOUND')
@@ -33,12 +36,14 @@ app.use((req, res, next) => {
   next(err);
 });
 
+//Locals to be passed to the Pug template
 app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
   res.render('error');
 });
 
-app.listen(3000, () => {
+//Listening on port 3000
+app.listen(3000, () => { 
   console.log('The application is running on localhost:3000!')
 });
