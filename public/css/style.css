@@ -152,3 +152,16 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+.textShadow {
+  text-shadow: 5px 5px 10px rgb(69, 29, 102);
+}
+
+.transition {
+  -webkit-transition: border 2s; /* For Safari 3.1 to 6.0 */
+  transition: border 2s;
+}
+
+.cell:hover {
+  border: 3px solid navy;
+}
