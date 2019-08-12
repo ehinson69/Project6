@@ -10,9 +10,7 @@ app.use('/static', express.static('public'));
 
 //Index route for "Home" page
 app.get('/', (req, res) => {
-  res.render('index', {
-    projects
-  });
+  res.render('index', { projects: projects });
 });
 
 //About route "About" page
@@ -39,7 +37,11 @@ app.use((req, res, next) => {
 //Locals to be passed to the Pug template
 app.use((err, req, res, next) => {
   res.locals.error = err;
-  res.status(err.status);
+  let status = err.status;
+if (status === 'undefined') {
+  status = 500;
+  res.status(status);
+}
   res.render('error');
 });
 
