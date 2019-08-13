@@ -19,17 +19,18 @@ app.get('/about', (req, res) => {
 });
 
 //Accesses project pug
-app.get('/project/:id', (req, res) => { 
+app.get('/projects/:id', (req, res) => { 
   const id = req.params.id // accesses the route parameter
-  res.render('project', {
-    project: projects[id]
-  });
+  const project = projects[id];
+  // console.log(projects);
+  // console.log(project);
+  res.render('project', {project});
 });
 
 //Error message handler and sets status code  
 app.use((req, res, next) => {
   const err = new Error('Page Not Found');
-  console.log('Check URL- THIS PAGE NOT FOUND')
+  // console.log('Check URL- THIS PAGE NOT FOUND')
   err.status = 404;
   next(err);
 });
