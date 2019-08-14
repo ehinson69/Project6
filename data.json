@@ -4,7 +4,7 @@
             "project_name": "A Random Quote Generator",
             "description": "A program that displays a randomly selected quote each tme a the user clicks a button.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live-link": "https://ehinson69.github.io/Project1/",
+            "live_link": "https://ehinson69.github.io/Project1/",
             "github_link": "https://github.com/ehinson69/Project1",
             "image_urls": ["/static/images/proj1.1.PNG", "/static/images/proj1.2.PNG", "/static/images/proj1.3.PNG", "/static/images/proj1.4.PNG"]
         },
@@ -12,7 +12,7 @@
             "project_name": "List Pagination and Filtering",
             "description": "A program to divide a long list into a eries of pages and improve the user experience of a web page.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live-link": "https://ehinson69.github.io/Project2/",
+            "live_link": "https://ehinson69.github.io/Project2/",
             "github_link": "https://github.com/ehinson69/Project2",
             "image_urls": ["/static/images/proj2.1.PNG", "/static/images/proj2.2.PNG", "/static/images/proj2.3.PNG", "/static/images/proj2.4.PNG"]
         },
@@ -20,7 +20,7 @@
             "project_name": "Interactive Form",
             "description": "A program using my skills to enhance a form so that it is engaging, interavtive, and easy to use.",
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
-            "live-link": "https://ehinson69.github.io/Project3/",
+            "live_link": "https://ehinson69.github.io/Project3/",
             "github_link": "https://github.com/ehinson69/Project3",
             "image_urls": ["/static/images/proj3.1.PNG", "/static/images/proj3.2.PNG", "/static/images/proj3.3.PNG", "/static/images/proj3.4.PNG"]
         },
@@ -28,7 +28,7 @@
             "project_name": "OOP Game Show App",
             "description": "A program of a browser-based, word guessing game that users can select a random, hidden phrase and guess letters to win, if they guess the wrong letters they lose a heart.",
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
-            "live-link": "https://ehinson69.github.io/Project4/",
+            "live_link": "https://ehinson69.github.io/Project4/",
             "github_link": "https://github.com/ehinson69/Project4",
             "image_urls": ["/static/images/proj4.1.PNG", "/static/images/proj4.2.PNG", "/static/images/proj4.3.PNG", "/static/images/proj4.4.PNG"]
         },
@@ -36,7 +36,7 @@
             "project_name": "Public API Requests",
             "description": "A program of an employee directory by communicating with a third party API, then access and display a vast sea of data for one employee at a time.",
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "JSON", "XML", "API"],
-            "live-link": "https://ehinson69.github.io/Project5/",
+            "live_link": "https://ehinson69.github.io/Project5/",
             "github_link": "https://github.com/ehinson69/Project5",
             "image_urls": ["/static/images/proj5.1.PNG", "/static/images/proj5.2.PNG", "/static/images/proj5.3.PNG", "/static/images/proj5.4.PNG"]
         }
