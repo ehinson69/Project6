@@ -40,6 +40,14 @@
             "github_link": "https://github.com/ehinson69/Project5",
             "image_urls": ["/static/images/proj5.1.PNG", "/static/images/proj5.2.PNG", "/static/images/proj5.3.PNG", "/static/images/proj5.4.PNG"]
         }
+        {"id": 5,
+            "project_name": "Portfolio Site",
+            "description": "A program of my personal skills and previous projects.",
+            "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "JSON", "XML", "API"],
+            "live_link": "https://ehinson69.github.io/Project6/",
+            "github_link": "https://github.com/ehinson69/Project6",
+            "image_urls": ["/static/images/proj6.1.PNG", "/static/images/proj6.2.PNG", "/static/images/proj6.3.PNG", "/static/images/proj6.4.PNG"]
+        }
     ]
 
 }
