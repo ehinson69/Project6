@@ -39,7 +39,7 @@
             "live_link": "https://ehinson69.github.io/Project5/",
             "github_link": "https://github.com/ehinson69/Project5",
             "image_urls": ["/static/images/proj5.1.PNG", "/static/images/proj5.2.PNG", "/static/images/proj5.3.PNG", "/static/images/proj5.4.PNG"]
-        }
+        },
         {"id": 5,
             "project_name": "Portfolio Site",
             "description": "A program of my personal skills and previous projects.",
